@@ -1,0 +1,661 @@
+/* ===============ПОДКЛЮЧЕНИЯ=============== */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ===============СКАЧЕННЫЕ ШРИФТЫ=============== */
+
+/* ===============WRAPPER=============== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+}
+
+/* ===============INDEX=============== */
+
+[class*="__block"] {
+    max-width: 1231px;
+    margin: 0 auto;
+}
+.enjoy-studying {
+    background: linear-gradient(45deg, rgba(255, 217, 216, 1) 0%, rgba(253, 223, 205, 1) 100%);
+}
+.enjoy-studying__block {
+    padding: 20px 0 80px 0;
+    background: url("../img/illustration_studying.svg") 600px 200px no-repeat;
+}
+.header {
+}
+.header__logo {
+    margin-right: 60px;
+    margin-top: 17px;
+}
+.header__menu {
+    display: inline-block;
+}
+.header__menu a:last-child {
+    margin-right: 200px;
+}
+.header__link {
+    color: #424551;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-right: 40px;
+}
+.button {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 20px 40px;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
+}
+.header__button {
+    margin-right: 36px;
+}
+.login-register {
+    color: #424551;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 700;
+    background: url("../img/icons/user.svg") left no-repeat;
+    padding-left: 28px;
+}
+.header_bottom-140 {
+    margin-bottom: 140px;
+}
+.enjoy-studing__play {
+    display: inline-block;
+    color: #1e212c;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 55px;
+}
+.enjoy-studing__play::before {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background: url("../img/icons/play.svg") center no-repeat;
+    box-shadow: #fec8c1 0 0 0 16px;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-bottom: -20px;
+}
+.enjoy-studying__heading {
+    color: #1e212c;
+    font-size: 64px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-weight: 900;
+    max-width: 496px;
+    margin-bottom: 60px;
+}
+.button_transparent {
+    color: #ff3f3a;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #ff3f3a;
+}
+.button_right-24 {
+    margin-right: 24px;
+}
+.button_bottom-250 {
+    margin-bottom: 250px;
+}
+.enjoy-studying__statistics {
+}
+.statistics {
+    color: #1e212c;
+}
+.statistics__item {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.statistics__item_bold {
+    font-size: 46px;
+    line-height: 1.3;
+    font-weight: 900;
+    margin-right: 12px;
+}
+.statistics__dot {
+    margin: 26px 60px;
+}
+.who-we-are {
+}
+.who-we-are__block {
+    padding: 180px 0;
+}
+.who-we-are__image {
+    margin-right: 135px;
+}
+.title {
+    color: #1e212c;
+    letter-spacing: 1px;
+}
+.title__sub {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title__main {
+    font-size: 46px;
+    line-height: 1.3;
+    font-weight: 900;
+}
+.list {
+    font-size: 16px;
+    color: #424551;
+}
+.list_bottom48 {
+    margin-bottom: 48px;
+}
+.list_width-390 {
+    max-width: 390px;
+}
+.list__item {
+    padding-left: 32px;
+    background: url("../img/icons/marker.svg") 0 5px no-repeat;
+    margin-bottom: 12px;
+    min-height: 26px;
+}
+.list li:last-child {
+    margin-bottom: 0;
+}
+.featured-courses {
+    padding: 0 0 150px 0;
+}
+.featured-courses__block {
+}
+.button_left-50 {
+    margin-left: 50%;
+}
+.teacher-card {
+    border: 1px solid #e5e8ed;
+    max-width: 600px;
+    min-height: 214px;
+    border-radius: 4px;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+        0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.teacher-card:nth-child(even) {
+    margin-left: 30px;
+}
+.teacher-card__photo {
+    margin-left: -2px;
+    margin-top: -2px;
+}
+.teacher-card__text {
+    display: inline-block;
+    width: 300px;
+    margin: 32px;
+}
+.teacher-card__specialization {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1px 8px;
+    border-radius: 4px;
+}
+.teacher-card__specialization_green {
+    background-color: #03cea4;
+}
+.teacher-card__info {
+    color: #1e212c;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.teacher-card__price {
+    color: #ff4242;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.teacher-card__stick {
+    margin: 5.5px 8px;
+}
+.teacher-card__name {
+    color: #787a80;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.teacher-card__specialization_blue {
+    background-color: #5a87fc;
+}
+.teacher-card__specialization_orange {
+    background-color: #f89828;
+}
+.teacher-card__specialization_pink {
+    background-color: #f52f6e;
+}
+.our-benefits {
+    padding: 0 0 240px 0;
+    background: url("../img/illustration_practicing_tutors.svg") 650px 200px/ 600px 400px no-repeat;
+}
+.our-benefits__block {
+}
+.pages {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.pages_bottom-180 {
+    margin-bottom: 180px;
+}
+.title_align-center {
+    text-align: center;
+}
+.pages__page {
+    display: inline-block;
+    width: 24%;
+    color: #9a9ca5;
+    border-radius: 4px;
+    text-align: center;
+}
+.pages__page_orange {
+    color: #ff3f3a;
+    outline: 1px solid #ff3f3a;
+}
+.pages__text {
+}
+.pages__text_before-star::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/icons/star.svg") center no-repeat;
+    margin-right: 8px;
+}
+.pages__text_before-like::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/icons/like.svg") center no-repeat;
+    margin-right: 8px;
+}
+.pages__text_before-layouts::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/icons/layouts.svg") center no-repeat;
+    margin-right: 8px;
+}
+.pages__text_before-chat::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../img/icons/chat.svg") center no-repeat;
+    margin-right: 8px;
+}
+.our-benefits__title {
+    color: #1e212c;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.our-benefits__description {
+    max-width: 495px;
+    color: #424551;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.our-events {
+    background: linear-gradient(45deg, rgba(255, 217, 216, 1) 0%, rgba(253, 223, 205, 1) 100%);
+    padding: 0 0 85px 0;
+}
+.our-events__block {
+}
+.event-card {
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    padding: 32px 40px;
+}
+.event-card__date {
+    color: #ff3f3a;
+    font-size: 48px;
+    line-height: 1.3;
+    font-weight: 900;
+}
+.event-card__month {
+    color: #1e212c;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.event-card__time {
+    color: #787a80;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.event-card__info {
+    color: #1e212c;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.event-card__type-event {
+    color: #787a80;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.button_hover:hover {
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    color: #fff;
+}
+.want-more {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.want-more__text {
+    color: #1e212c;
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.certificate {
+}
+.certificate__block {
+}
+.certificate__partners {
+    color: #424551;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 390px;
+}
+.certificate__logo-partners {
+    margin-right: 40px;
+}
+.certificate__example-certificate {
+}
+.best-tutors {
+    background: #f4f5f6;
+    padding: 160px 0 100px 0;
+}
+.best-tutors__block {
+}
+.title_bottom-60 {
+    margin-bottom: 60px;
+}
+.best-teacher-card {
+    text-align: center;
+    max-width: 285px;
+}
+.best-teacher-card__photo {
+    border-radius: 4px;
+    width: 285px;
+    height: auto;
+}
+.best-teacher-card__name {
+    color: #424551;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.best-teacher-card__post {
+    color: #787a80;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.testimonials {
+    background: #f4f5f6;
+    padding-bottom: 100px;
+}
+.testimonials__block {
+}
+.button-arrow {
+}
+.button-arrow_left {
+}
+.feedback {
+    max-width: 1020px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 64px 105px;
+}
+.feedback__item {
+    padding-left: 58px;
+    background: url("../img/icons/comma.svg") 0 0 no-repeat, url("../img/icons/comma.svg") 18px 0 no-repeat;
+}
+.feedback__text {
+    color: #424551;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.author {
+}
+.author__photo {
+}
+.author__name {
+    color: #1e212c;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 700;
+}
+.author__post {
+    color: #787a80;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.button-arrow_right {
+}
+.our-blog {
+    padding: 120px 0 180px 0;
+}
+.our-blog__block {
+}
+.button_bottom-60 {
+    margin-bottom: 60px;
+}
+.blog-card {
+    max-width: 390px;
+}
+.blog-card__image {
+}
+.blog-card__type {
+}
+.blog-card__image-type {
+}
+.blog-card__text-type {
+}
+.blog-card__info {
+    color: #787a80;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.blog-card__direction {
+    font-weight: 700;
+}
+.blog-card__stick {
+    margin: 2px 12px;
+}
+.blog-card__date::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icons/calendar.svg") center no-repeat;
+    margin-bottom: -2px;
+    margin-right: 8px;
+}
+.blog-card__time::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icons/clock.svg") center no-repeat;
+    margin-bottom: -2px;
+    margin-right: 8px;
+}
+.blog-card__name-post {
+    color: #1e212c;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.blog-card__fragment {
+    color: #424551;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.link-post {
+}
+.link-post__text {
+    color: #1e212c;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 700;
+}
+.link-post__text::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/icons/arrow_right_orange.svg") center no-repeat;
+    margin-bottom: -7px;
+    margin-left: 7px;
+}
+.mailing {
+    background: url("../img/illustration_finish_studying.svg") left bottom no-repeat,
+        url("../img/illustration_finish_studying.svg") right bottom no-repeat,
+        linear-gradient(45deg, rgba(255, 217, 216, 1) 0%, rgba(253, 223, 205, 1) 100%);
+    padding: 120px 0 180px 0;
+}
+.mailing__container {
+    max-width: 810px;
+    margin: 0 auto;
+}
+.mailing__email-user {
+    width: 420px;
+    height: 50px;
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+    margin-right: 24px;
+    margin-left: 100px;
+}
+.footer {
+    padding-top: 80px;
+    background: #1e212c;
+    color: #a5a6ab;
+}
+.footer__block {
+}
+.footer__up {
+}
+.footer__column-info {
+    max-width: 280px;
+}
+.footer__logo {
+    margin-bottom: 25px;
+}
+.footer__company-info {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+}
+.social {
+}
+.social__link {
+}
+.social__logo {
+    opacity: 0.6;
+    margin-right: 22px;
+}
+.social__logo:hover {
+    opacity: 1;
+}
+.footer__column-map {
+}
+.footer__name-column {
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.list-footer__item {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+.footer__link-map {
+}
+.footer__column-courses {
+}
+.footer__link-courses {
+}
+.footer__column-contacts {
+}
+.footer__phone-number::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icons/phone.svg") center no-repeat;
+    opacity: 0.6;
+    margin-right: 11px;
+    margin-bottom: -3px;
+}
+.footer__email-company::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icons/email.svg") center no-repeat;
+    opacity: 0.6;
+    margin-right: 11px;
+    margin-bottom: -3px;
+}
+.footer__column-news {
+}
+.footer__newsletter {
+    background: #393c46;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    width: 286px;
+    height: 36px;
+    font-size: 20px;
+    color: #fff;
+}
+.footer__explanation {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #fff;
+    max-width: 280px;
+}
+.footer__down {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 20px 0 20px 0;
+}
+.footer__rights {
+}
+.footer__made {
+}
+.footer__heart {
+}
+.footer__by-creator {
+}
+.footer__go-to-top {
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+    margin-top: 30px;
+}
